@@ -1,0 +1,58 @@
+import { motion } from "framer-motion";
+
+export default function Banner() {
+  return (
+    <section
+      id="home"
+      className="mx-auto py-10 mdl:py-24 mdl:px-10 xl:px-4 flex flex-col gap-4 lgl:gap-8 max-w-contentContainer"
+    >
+      <motion.p
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+        className="text-textGreen text-lg font-titleFont tracking-wide"
+      >
+        Hi, my name is
+      </motion.p>
+      <motion.h1
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
+        className="text-textLight text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
+      >
+        Ankit Kumar Roshan.
+        <span className="text-textDark text-2xl lgl:text-4xl font-semibold mt-2 lgl:mt-4">
+          I build things for the web
+        </span>
+      </motion.h1>
+      <motion.p
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+        className="text-textDark text-base md:max-w-[650px] font-medium"
+      >
+        I am a passionate front-end web developer with 2 years of industry
+        experience, dedicated to building websites and web applications. My
+        specialization lies in ReactJS, complemented by professional experience
+        in JavaScript, as well as proficiency in TypeScript, HTML, CSS, and
+        GraphQL.{" "}
+        <a
+          href="https://github.com/akr99799"
+          target="_blank"
+          className="text-textGreen inline-flex relative h-7 overflow-x-hidden group"
+        >
+          Learn More
+          <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
+        </a>
+      </motion.p>
+      <motion.button
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.9 }}
+        className="w-52 h-14 text-sm font-titleFont border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-500"
+      >
+        Check out my project
+      </motion.button>
+    </section>
+  );
+}
