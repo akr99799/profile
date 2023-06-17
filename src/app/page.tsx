@@ -1,5 +1,7 @@
 "use client";
+import About from "@/components/about";
 import Banner from "@/components/banner";
+import Experience from "@/components/experience";
 import LeftSidebar from "@/components/leftSidebar";
 import Navbar from "@/components/navbar";
 import RightSidebar from "@/components/rightSidebar";
@@ -25,6 +27,11 @@ export default function Home() {
           className="h-[88vh] w-full mx-auto p-4"
         >
           <Banner />
+          <About />
+          <Experience />
+          {/* Projects */}
+          {/* Archive */}
+          {/* Contact */}
         </motion.div>
         <motion.aside
           initial={{ opacity: 0 }}
@@ -35,6 +42,7 @@ export default function Home() {
           <RightSidebar />
         </motion.aside>
       </main>
+      {/* Footer */}
     </div>
   );
 }
