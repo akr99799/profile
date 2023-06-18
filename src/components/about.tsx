@@ -28,7 +28,7 @@ export default function About() {
               <span className="text-textGreen">TypeScript, HTML, and CSS</span>,
               enabling me to build robust and scalable applications.
             </p>
-            <p>I have experience in these technologies:</p>
+            <p>My tech stack includes:</p>
             <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2">
               <li className="flex items-center gap-2">
                 <span>

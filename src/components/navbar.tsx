@@ -11,22 +11,12 @@ export default function Navbar() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <Image src={logo} alt="logo" className="w-14 h-14" />
+          <a href="#home">
+            <Image src={logo} alt="logo" className="w-14 h-14" />
+          </a>
         </motion.div>
         <div className="hidden mdl:inline-flex gap-7 items-center">
           <ul className="flex text-[13px] gap-7">
-            <motion.li
-              initial={{ y: -10, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.1 }}
-            >
-              <a
-                href="#home"
-                className="font-medium text-textDark hover:text-textGreen duration-300 nav-link"
-              >
-                Home
-              </a>
-            </motion.li>
             <motion.li
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}

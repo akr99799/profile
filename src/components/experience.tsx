@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import SectionTitle from "./sectionTitle";
 import { TiArrowForward } from "react-icons/ti";
 
-type Type = "Appointy-FT" | "Appointy-Intern";
+type Experience = "Appointy-FT" | "Appointy-Intern";
 
 export default function Experience() {
-  const [active, setActive] = useState<Type>("Appointy-FT");
+  const [active, setActive] = useState<Experience>("Appointy-FT");
 
-  const handleClick = (value: Type) => () => setActive(value);
+  const handleClick = (value: Experience) => () => setActive(value);
   return (
     <section
       id="experience"
@@ -44,7 +44,7 @@ export default function Experience() {
   );
 }
 
-function WorkDescription({ active }: { active: Type }) {
+function WorkDescription({ active }: { active: Experience }) {
   switch (active) {
     case "Appointy-FT": {
       return (
