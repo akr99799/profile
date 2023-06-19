@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
 
 export default function Banner() {
-
   const handleClick = () => {
-    window.open("https://github.com/akr99799", "_blank")
-  }
+    window.open("https://github.com/akr99799", "_blank");
+  };
 
   return (
     <section
@@ -47,7 +46,7 @@ export default function Banner() {
           className="text-textGreen inline-flex relative h-7 overflow-x-hidden group"
         >
           Learn More
-          <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"/>
+          <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500" />
         </a>
       </motion.p>
       <motion.button

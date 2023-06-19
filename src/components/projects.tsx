@@ -12,7 +12,7 @@ export default function Projects() {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto"
-            href="https://darling-clafoutis-11f7d4.netlify.app/"
+            href="https://covid-tracker-brown.vercel.app"
             target="_blank"
           >
             <div>

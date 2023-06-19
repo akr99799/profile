@@ -4,7 +4,7 @@ import Link from "next/link";
 import { logo } from "../../public/assets";
 import { motion } from "framer-motion";
 import { MdOutlineClose } from "react-icons/md";
-import  Footer  from "./footer"
+import Footer from "./footer";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);

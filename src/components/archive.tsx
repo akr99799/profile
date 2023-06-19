@@ -8,31 +8,24 @@ export default function Archive() {
         <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
           <ArchiveCard
             title="Task Tracker"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem. "
-            techStack={["React", "Js"]}
-            githubLink=""
-            deployedLink=""
+            content="A task tracker app to manage your tasks"
+            techStack={["React", "Javascript", "HTML/CSS"]}
+            githubLink="https://github.com/akr99799/task-tracker"
+            deployedLink="https://task-tracker-fiazppdgq-akr99799.vercel.app/"
           />
           <ArchiveCard
-            title="Website"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem. "
-            techStack={["React", "Js"]}
-            githubLink=""
-            deployedLink=""
+            title="Todo-List"
+            content="A to-do list app with CRUD operation"
+            techStack={["React", "Material-ui", "Javascript"]}
+            githubLink="https://github.com/akr99799/class-base-todo"
+            deployedLink="https://todo-list-df1bmd01s-akr99799.vercel.app/"
           />
           <ArchiveCard
-            title="To-do app"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem."
-            techStack={["React", "Js"]}
-            githubLink=""
-            deployedLink=""
-          />
-          <ArchiveCard
-            title="Gussing game"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem. "
-            techStack={["React", "Js"]}
-            githubLink=""
-            deployedLink=""
+            title="Guessing game"
+            content="Guess the RGB color game"
+            techStack={["Javascript", "HTML/CSS"]}
+            githubLink="https://github.com/akr99799/JavaScript_Games"
+            deployedLink="https://color-guessing-game-theta.vercel.app/"
           />
         </div>
       </div>
