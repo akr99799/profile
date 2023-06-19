@@ -17,8 +17,12 @@ export default function ArchiveCard({
   deployedLink,
   techStack,
 }: Props) {
+  const handleClick = () => {
+    window.open(deployedLink, "_blank")
+  }
+
   return (
-    <a href={deployedLink} target="_blank">
+    <div onClick={handleClick}>
       <div className="w-full h-96 rounded-lg bg-[#112240] p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group">
         <div className="flex justify-between items-center text-4xl">
           <FaRegFolder className="text-textGreen" />
@@ -39,9 +43,9 @@ export default function ArchiveCard({
             </a>
           </div>
         </div>
-        <h2 className="text-xl font-titleFont font-semibold group-hover:text-textGreen tracking-wide">
+        <p className="text-xl font-titleFont font-semibold group-hover:text-textGreen tracking-wide">
           {title}
-        </h2>
+        </p>
         <p className="text-sm mt-3">{content}</p>
         <ul className="flex justify-around items-center flex-wrap text-xs md:text-sm text-textDark">
           {techStack.map((tech, index) => (
@@ -49,6 +53,6 @@ export default function ArchiveCard({
           ))}
         </ul>
       </div>
-    </a>
+    </div>
   );
 }

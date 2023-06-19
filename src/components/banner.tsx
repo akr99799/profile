@@ -1,6 +1,11 @@
 import { motion } from "framer-motion";
 
 export default function Banner() {
+
+  const handleClick = () => {
+    window.open("https://github.com/akr99799", "_blank")
+  }
+
   return (
     <section
       id="home"
@@ -36,22 +41,23 @@ export default function Banner() {
         specialization lies in ReactJS, complemented by professional experience
         in JavaScript, as well as proficiency in TypeScript, HTML, CSS, and
         GraphQL.{" "}
-        {/* <a
-          href="https://github.com/akr99799"
+        <a
+          href="https://www.linkedin.com/in/ankit-kumar-roshan"
           target="_blank"
           className="text-textGreen inline-flex relative h-7 overflow-x-hidden group"
         >
           Learn More
           <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"/>
-        </a> */}
+        </a>
       </motion.p>
       <motion.button
+        onClick={handleClick}
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.9 }}
         className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-500"
       >
-        Check out my project
+        Check out my projects!
       </motion.button>
     </section>
   );
