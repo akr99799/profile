@@ -35,11 +35,13 @@ export default function Banner() {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-textDark text-base md:max-w-[650px] font-medium"
       >
-        I am a passionate front-end web developer with 2 years of industry
-        experience, dedicated to building websites and web applications. My
-        specialization lies in ReactJS, complemented by professional experience
-        in JavaScript, as well as proficiency in TypeScript, HTML, CSS, and
-        GraphQL.{" "}
+        Experienced front-end web developer with a passion for building dynamic
+        web applications. Skilled in ReactJS, JavaScript, TypeScript, HTML, CSS,
+        and GraphQL. Proven track record in delivering intuitive user
+        experiences and optimizing application performance. Strong team
+        management and time management abilities. Eager to contribute to your
+        projects and stay updated with the latest technologies in web
+        development. Let&apos;s connect and collaborate for success.{" "}
         <a
           href="https://www.linkedin.com/in/ankit-kumar-roshan"
           target="_blank"

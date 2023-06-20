@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .active {
-    color: #64FFDA
+  color: #64ffda;
 }
