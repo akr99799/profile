@@ -44,7 +44,7 @@ export default function Projects() {
                 <TbBrandGithub />
               </a>
               <a
-                href="https://darling-clafoutis-11f7d4.netlify.app/"
+                href="https://covid-tracker-brown.vercel.app"
                 target="_blank"
                 className="hover:text-textGreen duration-300"
               >
