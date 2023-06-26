@@ -14,13 +14,6 @@ export default function Archive() {
             deployedLink="https://task-tracker-fiazppdgq-akr99799.vercel.app/"
           />
           <ArchiveCard
-            title="Todo-List"
-            content="A to-do list app with CRUD operation"
-            techStack={["React", "Material-ui", "Javascript"]}
-            githubLink="https://github.com/akr99799/class-base-todo"
-            deployedLink="https://todo-list-df1bmd01s-akr99799.vercel.app/"
-          />
-          <ArchiveCard
             title="Guessing game"
             content="Guess the RGB color game"
             techStack={["Javascript", "HTML/CSS"]}
