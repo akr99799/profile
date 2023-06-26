@@ -37,9 +37,7 @@ export default function Banner() {
       >
         Experienced front-end web developer with a passion for building dynamic
         web applications. Skilled in ReactJS, JavaScript, TypeScript, HTML, CSS,
-        and GraphQL. Proven track record in delivering intuitive user
-        experiences and optimizing application performance. Strong team
-        management and time management abilities. Eager to contribute to your
+        and GraphQL. Eager to contribute to your
         projects and stay updated with the latest technologies in web
         development. Let&apos;s connect and collaborate for success.{" "}
         <a
