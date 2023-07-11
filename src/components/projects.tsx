@@ -7,7 +7,7 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 export default function Projects() {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
-      <SectionTitle title="Some Things I have Build" titleOrder="03" />
+      <SectionTitle title="Some Things I have Built" titleOrder="03" />
       <div className="w-full flex flex-col items-center justify-center gap-20 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
           <a
