@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SectionTitle from "./sectionTitle";
+import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { profilePhoto } from "../../public/assets";
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import SectionTitle from "./sectionTitle";
+import SectionTitle from "./SectionTitle";
 import { TiArrowForward } from "react-icons/ti";
 
 type Experience = "Appointy" | "Others";
@@ -18,12 +18,11 @@ export default function Experience() {
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li
-            className={`${
-              active === "Appointy"
+            className={`${active === "Appointy"
                 ? "border-l-textGreen text-textGreen"
                 : " border-l-hoverColor text-textDark"
-            } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
-            // onClick={handleClick("Appointy")}
+              } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
+          // onClick={handleClick("Appointy")}
           >
             Appointy
           </li>

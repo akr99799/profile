@@ -5,7 +5,7 @@ export default function Contact() {
       className="max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center"
     >
       <p className="font-titleFont tracking-wide text-textGreen text-lg font-semibold">
-        04. What&apos;s Next?
+        03. What&apos;s Next?
       </p>
       <h1 className="text-4xl font-titleFont font-bold tracking-wide">
         Get In Touch

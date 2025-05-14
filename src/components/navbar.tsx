@@ -4,7 +4,7 @@ import Link from "next/link";
 import { logo } from "../../public/assets";
 import { motion } from "framer-motion";
 import { MdOutlineClose } from "react-icons/md";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -122,24 +122,11 @@ const Links = ({
           transition={{ duration: 0.1, delay: 0.3 }}
         >
           <Link
-            href="#project"
-            className="flex gap-1 font-medium text-textDark hover:text-textGreen duration-300 nav-link"
-            onClick={handleScroll}
-          >
-            <span className="text-textGreen">03.</span>Project
-          </Link>
-        </motion.li>
-        <motion.li
-          initial={{ y: -10, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.1, delay: 0.4 }}
-        >
-          <Link
             href="#contact"
             className="flex gap-1 font-medium text-textDark hover:text-textGreen duration-300 nav-link"
             onClick={handleScroll}
           >
-            <span className="text-textGreen">04.</span>Contact
+            <span className="text-textGreen">03.</span>Contact
           </Link>
         </motion.li>
       </ul>
@@ -147,7 +134,7 @@ const Links = ({
         <motion.button
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
+          transition={{ delay: 0.4 }}
           className="px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
         >
           Resume
