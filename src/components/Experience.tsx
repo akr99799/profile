@@ -6,7 +6,7 @@ import { TiArrowForward } from "react-icons/ti";
 type Experience = "Appointy" | "Codesmith";
 
 export default function Experience() {
-  const [active, setActive] = useState<Experience>("Appointy");
+  const [active, setActive] = useState<Experience>("Codesmith");
   const handleClick = (value: Experience) => () => setActive(value);
   return (
     <section
