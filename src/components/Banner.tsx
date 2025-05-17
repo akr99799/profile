@@ -1,10 +1,6 @@
 import { motion } from "framer-motion";
 
 export default function Banner() {
-  const handleClick = () => {
-    window.open("https://github.com/akr99799", "_blank");
-  };
-
   return (
     <section
       id="home"
@@ -35,9 +31,9 @@ export default function Banner() {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-textDark text-base md:max-w-[650px] font-medium"
       >
-        Experienced front-end web developer with a passion for building dynamic
-        web applications. Skilled in ReactJS, JavaScript, TypeScript, HTML, CSS,
-        and GraphQL. Eager to contribute to your
+        Experienced web developer with a passion for building dynamic
+        web applications. Skilled in JavaScript, HTML/CSS,
+        and Go. Eager to contribute to your
         projects and stay updated with the latest technologies in web
         development. Let&apos;s connect and collaborate for success.{" "}
         <a
@@ -50,7 +46,7 @@ export default function Banner() {
         </a>
       </motion.p>
       <motion.button
-        onClick={handleClick}
+        onClick={() => window.open("https://github.com/akr99799", "_blank")}
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.9 }}

@@ -16,7 +16,7 @@ export default function Navbar() {
     const targetId = href.replace(/.*\#/, "");
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
-      targetElement?.scrollIntoView({
+      targetElement.scrollIntoView({
         behavior: "smooth",
       });
       const links = document.querySelectorAll(".nav-link");

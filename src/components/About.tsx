@@ -16,7 +16,7 @@ export default function About() {
             <p>
               Hello, I&apos;m Ankit Kumar Roshan, and I enjoy creating things
               that live on the internet. My primary focus and specialization lie
-              in <span className="text-textGreen">ReactJS</span>. With a strong
+              in <span className="text-textGreen">Web developement</span>. With a strong
               background in{" "}
               <span className="text-textGreen inline">JavaScript</span>, I am
               adept at crafting dynamic and interactive web interfaces.
@@ -25,17 +25,11 @@ export default function About() {
               My journey as a developer has allowed me to expand my knowledge
               and work with a diverse set of technologies. I have hands-on
               experience with{" "}
-              <span className="text-textGreen">TypeScript, HTML, and CSS</span>,
+              <span className="text-textGreen">TypeScript, HTML, CSS, <br /> and Go</span>,
               enabling me to build robust and scalable applications.
             </p>
             <p>My tech stack includes:</p>
             <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2">
-              <li className="flex items-center gap-2">
-                <span>
-                  <AiFillThunderbolt className="text-textGreen" />
-                </span>
-                React
-              </li>
               <li className="flex items-center gap-2">
                 <span>
                   <AiFillThunderbolt className="text-textGreen" />
@@ -52,40 +46,37 @@ export default function About() {
                 <span>
                   <AiFillThunderbolt className="text-textGreen" />
                 </span>
-                GraphQL, React-relay
+                Reactjs
               </li>
               <li className="flex items-center gap-2">
                 <span>
                   <AiFillThunderbolt className="text-textGreen" />
                 </span>
-                Material-UI, Formik, Yup validation
+                Svelte
               </li>
               <li className="flex items-center gap-2">
                 <span>
                   <AiFillThunderbolt className="text-textGreen" />
                 </span>
-                Jest, Cypress.io
-              </li>
-            </ul>
-            <p>Currently, I&apos;m learning:</p>
-            <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2">
-              <li className="flex items-center gap-2">
-                <span>
-                  <AiFillThunderbolt className="text-textGreen" />
-                </span>
-                Solid.js
+                Solidjs
               </li>
               <li className="flex items-center gap-2">
                 <span>
                   <AiFillThunderbolt className="text-textGreen" />
                 </span>
-                Next.js
+                Go
               </li>
               <li className="flex items-center gap-2">
                 <span>
                   <AiFillThunderbolt className="text-textGreen" />
                 </span>
-                Tailwindcss
+                gRPC
+              </li>
+              <li className="flex items-center gap-2">
+                <span>
+                  <AiFillThunderbolt className="text-textGreen" />
+                </span>
+                PostgreSQL
               </li>
             </ul>
           </div>
