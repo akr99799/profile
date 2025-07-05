@@ -17,19 +17,21 @@ export default function Experience() {
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
         <ul className="md:w-32 flex flex-col">
           <li
-            className={`${active === "Codesmith"
-              ? "border-l-textGreen text-textGreen"
-              : " border-l-hoverColor text-textDark"
-              } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
+            className={`${
+              active === "Codesmith"
+                ? "border-l-textGreen text-textGreen"
+                : " border-l-hoverColor text-textDark"
+            } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
             onClick={handleClick("Codesmith")}
           >
             Codesmith
           </li>
           <li
-            className={`${active === "Appointy"
-              ? "border-l-textGreen text-textGreen"
-              : " border-l-hoverColor text-textDark"
-              } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
+            className={`${
+              active === "Appointy"
+                ? "border-l-textGreen text-textGreen"
+                : " border-l-hoverColor text-textDark"
+            } border-l-2  bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8`}
             onClick={handleClick("Appointy")}
           >
             Appointy
@@ -70,45 +72,52 @@ function WorkDescription({ active }: { active: Experience }) {
               <span>
                 <TiArrowForward className="text-textGreen mt-1" />
               </span>
-              Developed a calendar application allowing users to create, view, edit, delete,
-              and reschedule events with drag-and-drop functionality for intuitive rescheduling.
+              Developed a calendar application allowing users to create, view,
+              edit, delete, and reschedule events with drag-and-drop
+              functionality for intuitive rescheduling.
             </li>
             <li className="flex gap-2 text-textDark text-base">
               <span>
                 <TiArrowForward className="text-textGreen mt-1" />
               </span>
-              Designed and implemented a customizable form builder enabling users
-              to create and distribute forms for collecting responses efficiently.
+              Designed and implemented a customizable form builder enabling
+              users to create and distribute forms for collecting responses
+              efficiently.
             </li>
             <li className="flex gap-2 text-textDark text-base">
               <span>
                 <TiArrowForward className="text-textGreen mt-1" />
               </span>
-              Supervised the development of a client portal that allows customers to book
-              appointments by selecting location, service, staff, and preferred date and time.
+              Supervised the development of a client portal that allows
+              customers to book appointments by selecting location, service,
+              staff, and preferred date and time.
             </li>
             <li className="flex gap-2 text-textDark text-base">
               <span>
                 <TiArrowForward className="text-textGreen mt-1" />
               </span>
-              Developed a bulk import feature enabling users to upload CSV files containing
-              customer information, with processes including uploading to Google Cloud Storage,
-              scheduling backend services for file processing, and inserting data into the database.
+              Developed a bulk import feature enabling users to upload CSV files
+              containing customer information, with processes including
+              uploading to Google Cloud Storage, scheduling backend services for
+              file processing, and inserting data into the database.
             </li>
             <li className="flex gap-2 text-textDark text-base">
               <span>
                 <TiArrowForward className="text-textGreen mt-1" />
               </span>
-              Developed and implemented CRUD services for multiple entities—such as customers, staff, and
-              locations—using proto3 schemas, connectrpc (gRPC-compatible HTTP APIs) for client communication,
-              and Ent (entity framework for Go) for data persistence in PostgreSQL.
+              Developed and implemented CRUD services for multiple entities—such
+              as customers, staff, and locations—using proto3 schemas,
+              connectrpc (gRPC-compatible HTTP APIs) for client communication,
+              and Ent (entity framework for Go) for data persistence in
+              PostgreSQL.
             </li>
             <li className="flex gap-2 text-textDark text-base">
               <span>
                 <TiArrowForward className="text-textGreen mt-1" />
               </span>
-              Managed a team of four developers, providing technical mentorship,conducting code reviews,
-              and allocating tasks to ensure project alignment and quality.
+              Managed a team of four developers, providing technical
+              mentorship,conducting code reviews, and allocating tasks to ensure
+              project alignment and quality.
             </li>
           </ul>
         </motion.div>
@@ -143,35 +152,40 @@ function WorkDescription({ active }: { active: Experience }) {
               </span>
               Optimized report section by caching results of costly operations,
               reducing application latency by 75%, enhancing UI responsiveness,
-              and significantly decreasing customer complaints about slow report rendering.
+              and significantly decreasing customer complaints about slow report
+              rendering.
             </li>
             <li className="flex gap-2 text-textDark text-base">
               <span>
                 <TiArrowForward className="text-textGreen mt-1" />
               </span>
-              Developed an interactive map using a map library showcasing locations with detailed pop-ups and
-              integrated Google Maps navigation links for easy directions.
+              Developed an interactive map using a map library showcasing
+              locations with detailed pop-ups and integrated Google Maps
+              navigation links for easy directions.
             </li>
             <li className="flex gap-2 text-textDark text-base">
               <span>
                 <TiArrowForward className="text-textGreen mt-1" />
               </span>
-              Improved developer onboarding by creating comprehensive documentation for the web
-              components, enabling faster integration and reducing development time.
+              Improved developer onboarding by creating comprehensive
+              documentation for the web components, enabling faster integration
+              and reducing development time.
             </li>
             <li className="flex gap-2 text-textDark text-base">
               <span>
                 <TiArrowForward className="text-textGreen mt-1" />
               </span>
-              Collaborated with cross-functional teams (product and design) to develop, improve,
-              and troubleshoot features, focusing on user experience and delivering optimal outcomes.
+              Collaborated with cross-functional teams (product and design) to
+              develop, improve, and troubleshoot features, focusing on user
+              experience and delivering optimal outcomes.
             </li>
             <li className="flex gap-2 text-textDark text-base">
               <span>
                 <TiArrowForward className="text-textGreen mt-1" />
               </span>
-              Implemented accessibility best practices in client-facing apps, improving user experience for
-              individuals with disabilities and helping secure a new enterprise customer.
+              Implemented accessibility best practices in client-facing apps,
+              improving user experience for individuals with disabilities and
+              helping secure a new enterprise customer.
             </li>
           </ul>
           <h3 className="flex gap-2 flex-wrap mt-8 font-medium text-lg mdl:text-xl font-titleFont">

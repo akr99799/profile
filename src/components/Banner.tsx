@@ -31,28 +31,25 @@ export default function Banner() {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-textDark text-base md:max-w-[650px] font-medium"
       >
-        Experienced web developer with a passion for building dynamic
-        web applications. Skilled in JavaScript, HTML/CSS,
-        and Go. Eager to contribute to your
-        projects and stay updated with the latest technologies in web
-        development. Let&apos;s connect and collaborate for success.{" "}
-        <a
-          href="https://www.linkedin.com/in/ankit-kumar-roshan"
-          target="_blank"
-          className="text-textGreen inline-flex relative h-7 overflow-x-hidden group"
-        >
-          Learn More
-          <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500" />
-        </a>
+        Experienced web developer with a passion for building dynamic web
+        applications. Skilled in JavaScript, HTML/CSS, and Go. Eager to
+        contribute to your projects and stay updated with the latest
+        technologies in web development. Let&apos;s connect and collaborate for
+        success.
       </motion.p>
       <motion.button
-        onClick={() => window.open("https://github.com/akr99799", "_blank")}
+        onClick={() =>
+          window.open(
+            "https://www.linkedin.com/in/ankit-kumar-roshan",
+            "_blank"
+          )
+        }
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.9 }}
-        className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-500"
+        className="w-32 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-500"
       >
-        Check out my projects!
+        Learn More!
       </motion.button>
     </section>
   );

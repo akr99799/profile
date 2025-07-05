@@ -16,8 +16,8 @@ export default function About() {
             <p>
               Hello, I&apos;m Ankit Kumar Roshan, and I enjoy creating things
               that live on the internet. My primary focus and specialization lie
-              in <span className="text-textGreen">Web developement</span>. With a strong
-              background in{" "}
+              in <span className="text-textGreen">Web developement</span>. With
+              a strong background in{" "}
               <span className="text-textGreen inline">JavaScript</span>, I am
               adept at crafting dynamic and interactive web interfaces.
             </p>
@@ -25,8 +25,10 @@ export default function About() {
               My journey as a developer has allowed me to expand my knowledge
               and work with a diverse set of technologies. I have hands-on
               experience with{" "}
-              <span className="text-textGreen">TypeScript, HTML, CSS, <br /> and Go</span>,
-              enabling me to build robust and scalable applications.
+              <span className="text-textGreen">
+                TypeScript, HTML, CSS, <br /> and Go
+              </span>
+              , enabling me to build robust and scalable applications.
             </p>
             <p>My tech stack includes:</p>
             <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2">
