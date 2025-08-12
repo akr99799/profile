@@ -130,7 +130,7 @@ const Links = ({
           </Link>
         </motion.li>
       </ul>
-      <Link href="/assets/Ankit_Kr_Roshan.pdf" target="_blank">
+      <Link href="/assets/Resume.pdf" target="_blank">
         <motion.button
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
